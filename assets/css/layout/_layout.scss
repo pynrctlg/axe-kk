@@ -1,0 +1,84 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background: $white;
+  color: $color1;
+  font-family: $font1;
+  overflow-y: hidden;
+  height: 100%;
+
+  background-image: url(../../assets/img/bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+* {
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+  &::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 5px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: $white;
+    border-radius: 5px;
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    background: $color1;
+  }
+}
+body,
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+div,
+b,
+u,
+i,
+div,
+header,
+thead,
+table,
+tr,
+td,
+strong,
+footer,
+section,
+content,
+picture,
+figure,
+img,
+nav,
+a,
+b,
+text,
+figure,
+input,
+label,
+select,
+option,
+textarea,
+label {
+  margin: 0;
+  padding: 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  box-sizing: border-box;
+  font-family: $font1;
+  scroll-behavior: inherit !important;
+}

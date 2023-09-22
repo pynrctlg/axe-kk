@@ -1,0 +1,52 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+}
+.logo {
+  padding: 70px 10px 60px 10px;
+  text-align: center;
+}
+.title {
+  text-align: center;
+  font-family: $font2;
+  font-size: 24px;
+  color: $color1;
+  margin-bottom: 35px;
+}
+.content {
+  width: calc(100% - 200px);
+  height: calc(100vh - 355px);
+  overflow-y: auto;
+  margin: 0 100px;
+  padding-right: 50px;
+  margin-bottom: 54px;
+  p {
+    color: $white;
+    font-family: $font1;
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  body {
+    background-size: 150%;
+    background-color: #000;
+    background-position: top center;
+  }
+  .logo {
+    padding: 60px 10px 50px 10px;
+    img {
+      width: 100px;
+    }
+  }
+  .title{
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .content{
+    
+    width: 90%;
+    margin: 0 auto 45px auto;
+    padding-right: 20px;
+  }
+}
